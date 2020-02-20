@@ -1,0 +1,16 @@
+I have developed REST API /api/posts in file 'api.js'
+Main server file is 'server.js' 
+So "npm run server" should be used to start running our application on 5000 port
+
+data.js is my test json file used for testing.
+
+function get(https) in api.js is the base function to fetch data from provided URL
+i.e  https://hatchways.io/api/assessment/blog/posts
+
+ROUTE1: api/ping ==>  with success true 
+
+ROUTE2: api/posts ==> with all logical operations on extracted json file are implemented. 
+
+localhost:5000/api/posts?tags=science&sortBy=authorId&direction=desc 
+is example solution of my implementation.
+
